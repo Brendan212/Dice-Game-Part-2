@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Potta+One&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Potta One', cursive;
+}
+
+#playerone {
+    
+    background-color: gold;
+    height:100%;
+    width:50%;
+    position: fixed;
+    left:0.1px;
+    border: 3px solid black;
+    text-align: center;
+}
+
+#playertwo {
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Potta One', cursive;
+    height:100%;
+    width:50%;
+    position: fixed;
+    right:0.2px;
+    border: 3px solid rgb(0, 0, 0);
+    text-align: center;
+}
+#nameone {
+    font-family: cursive;
+    font-size: 5em;
+}
+#nametwo {
+    font-family: cursive;
+    font-size: 4em;
+}
+
+#onetotal {
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Potta One', cursive;
+    text-align: center;
+    border: 3px solid black;
+    bottom: 400px;
+    position:fixed;
+    left: 300px;
+    height: 200px;
+    width: 300px;
+    font-size: 3.5em;
+}
+
+#onecurrent {
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Potta One', cursive;
+    position:fixed;
+    bottom: 100px;
+    left: 300px;
+    height: 200px;
+    width: 300px;
+    border: 2px solid black;
+    text-align: center;
+    font-size: 3.5em;
+}
+#twototal {
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Potta One', cursive;
+    text-align: center;
+    border: 3px solid black;
+    bottom: 400px;
+    position:fixed;
+    right: 300px;
+    height: 200px;
+    width: 300px;
+    font-size: 3.5em;
+}
+#twocurrent {
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Potta One', cursive;
+    position:fixed;
+    bottom: 100px;
+    right: 300px;
+    height: 200px;
+    width: 300px;
+    border: 2px solid black;
+    text-align: center;
+    font-size: 5em;
+}
+
+#newgame {
+    background-color:transparent;
+    font-size: 1em;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Potta One', cursive;
+    position: fixed;
+    height: 50px;
+    width: 150px;
+    border: 1px solid black;
+    top: 200px;
+    right: 800px;
+}
+
+#roll {
+    background-color:transparent;
+    font-size: 1em;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Potta One', cursive;
+    position: fixed;
+    height: 50px;
+    width: 150px;
+    border: 1px solid black;
+    bottom: 250px;
+    right: 800px;
+}
+
+#hold {
+    background-color:transparent;
+    font-size: 1em;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Potta One', cursive;
+    position: fixed;
+    height: 50px;
+    width: 150px;
+    border: 1px solid black;
+    bottom: 150px;
+    right: 800px;
+}
+
+#result {
+    position: fixed;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Potta One', cursive;
+    height: 200px;
+    width: 200px;
+    border: 1px solid black;
+    bottom: 400px;
+    right: 775px;
+}
