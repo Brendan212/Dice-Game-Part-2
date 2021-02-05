@@ -1,1 +1,1 @@
-# Dice-Game-Part-2
+Two player dice game
